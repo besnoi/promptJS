@@ -53,6 +53,12 @@ prompt.message=(title,body)=>{
     $(`#dialog${modalID}`).modal()
 }
 
+prompt.call=(title)=>{
+    if (_modals[title]){
+        $(`#dialog${_modals[title]}`).modal()
+    }
+}
+
 prompt.inputModal=(title,input,callback)=>{
     if (!callback)
         callback = ()=>{}
