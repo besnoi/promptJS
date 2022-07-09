@@ -15,7 +15,10 @@ but for rectangle this code becomes unusable, so you can use **promptJS** —
         console.log(`Area of the rectangle is ${l*b}`)
   })
 ```
-
+<p align='center'>
+  <img src="https://github.com/besnoi/promptJS/blob/main/_img/preview.JPG"><br>
+  <em>Output may vary depending on your Bootstrap theme</em>
+</p>
 
 ### Dependencies
 - *jQuery v2.1.3*
@@ -52,5 +55,5 @@ prompt.call("Greetings")
 
 Consider studying [graphviz](https://github.com/besnoi/graphviz/blob/main/index.html#L30) for a project-example
 ### Todo 
-- Add examples, screenshots, etc
-- vMake more projects demonstrating usefulnes of promptJS
+- ~Add examples, screenshots, etc~
+- Make more projects demonstrating usefulnes of promptJS
